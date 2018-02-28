@@ -1,3 +1,8 @@
+/*Heading Styles*/
+header {
+
+}
+/*Nav Bar styling*/
 #navBar {
 	width: 100%;
 	display: block;
@@ -7,28 +12,28 @@
   -moz-box-shadow: 0 8px 6px -6px #999;
   box-shadow: 0 8px 6px -6px #999;
 }
-ul {
+ nav ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
     background-color: #333;
 }
-li {
+nav li {
     float: left;
 }
 
-li a, .dropbtn {
+nav li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover, .dropdown:hover .dropbtn {
+nav li a:hover, .dropdown:hover .dropbtn {
     background-color: grey;
 }
-li.dropdown {
+nav li.dropdown {
     display: inline-block;
 }
 .dropdown-content {
@@ -51,4 +56,32 @@ li.dropdown {
 }
 .dropdown:hover .dropdown-content {
     display: block;
+}
+/*Body Stylings*/
+body p {
+	margin: 0px;
+}
+body section.Hours {
+	padding-top: 30px;
+}
+body section.Hours h1 {
+	margin-bottom: 0px;
+}
+body section.BookOverPhone {
+	padding-top: 30px;
+}
+body section.SlideShow {
+	padding-top: 30px;
+}
+body section.VideoPlayer {
+	padding-top: 30px;
+}
+body section.VideoText {
+	padding-top: 30px;
+}
+body section.YouDeserveIt {
+	padding-top: 30px;
+}
+body footer {
+	text-align: center;
 }
