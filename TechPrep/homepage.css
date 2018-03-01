@@ -64,27 +64,63 @@ body section.Hours {
 }
 body section.Hours h1 {
 	margin-bottom: 0px;
-	text-align: center;
 }
 body section.Hours p {
 	margin-top: 0px;
-	text-align: center;
 }
 body section.BookOverPhone {
-
+	float: left;
 }
 body section.SlideShow {
-
+	float: right;
+}
+.lineBreakOneDiv {
+	width: 100%;
+	height: 25px;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+.lineBreakOneSpan {
+	font-size: 40px;
+ 	background-color: #fff;
+  padding: 0 200px;
 }
 body section.VideoPlayer {
 
 }
 body section.VideoText {
 	text-align: center;
+	float: right;
+}
+.lineBreakTwoDiv {
+	width: 100%;
+	height: 25px;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+.lineBreakTwoSpan {
+	font-size: 40px;
+ 	background-color: #fff;
+  padding: 0 200px;
+}
+body section.Subscribe {
+
+}
+.lineBreakThreeDiv {
+	width: 100%;
+	height: 25px;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+.lineBreakThreeSpan {
+	font-size: 40px;
+ 	background-color: #fff;
+  padding: 0 200px;
 }
 body section.YouDeserveIt {
 
 }
 body footer {
 	text-align: center;
+	background-color: rgb(255, 0, 0);
 }
