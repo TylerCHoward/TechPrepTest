@@ -104,7 +104,7 @@ body section.VideoText {
   padding: 0 200px;
 }
 body section.Subscribe {
-
+	text-align: center;
 }
 .lineBreakThreeDiv {
 	width: 100%;
