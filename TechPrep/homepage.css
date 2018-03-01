@@ -118,9 +118,16 @@ body section.Subscribe {
   padding: 0 200px;
 }
 body section.YouDeserveIt {
-
+	background-color: #f6f6f6;
+}
+body section.YouDeserveIt img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 body footer {
 	text-align: center;
-	background-color: rgb(255, 0, 0);
+	background-color: #f6f6f6;
+}
+body footer p {
 }
