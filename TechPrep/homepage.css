@@ -58,6 +58,9 @@ nav li.dropdown {
     display: block;
 }
 /*Body Stylings*/
+body {
+	margin-left: 0px;
+}
 body section.Hours {
 	padding-top: 30px;
 	float: left;

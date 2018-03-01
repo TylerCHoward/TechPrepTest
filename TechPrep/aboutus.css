@@ -57,3 +57,6 @@ nav li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+body {
+  margin-left: 0px;
+}
