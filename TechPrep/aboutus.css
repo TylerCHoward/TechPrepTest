@@ -60,3 +60,35 @@ nav li.dropdown {
 body {
   margin-left: 0px;
 }
+.Information {
+	text-align: center;
+}
+.Information p {
+	margin: 0 100px 0 100px;
+}
+.Supports h2 {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
+.row1 {
+	vertical-align: top;
+}
+.testimonal1 {
+	float: left;
+	margin: 50px 50px 50px 50px;
+}
+.testimonal2 {
+	margin: 50px 50px 50px 50px;
+}
+.testimonal3 {
+	float: right;
+	margin: 50px 50px 50px 50px;
+}
+.row2 {
+	vertical-align: middle;
+}
+.row3 {
+	vertical-align: bottom;
+}
