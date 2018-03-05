@@ -1,0 +1,8 @@
+Add basic html for services page
+Add basic html for Gallery
+Add basic html for a "coming soon" page for Products
+
+Work with the CSS for each page to make it look nicer
+Work with CSS for some pages to structure it
+
+Add javascript elements (slide shows, videos, etc)
