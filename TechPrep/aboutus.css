@@ -2,6 +2,15 @@
 header {
 
 }
+
+html{
+	font-style: sans-serif;
+	color: black;
+}
+
+article{
+
+}
 /*Nav Bar styling*/
 #navBar {
 	width: 100%;
@@ -73,11 +82,22 @@ body {
 h1 {
 	text-align: center;
 	font-size: 3em;
+	margin-bottom: 5%;
 }
 .Testimonials{
 	text-align: center;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+}
+
+article li{
+	text-align: center;
+	list-style: none;
+}
+
+
+h2{
+	margin-top: 4%;
 }
 footer {
 	text-align: center;
