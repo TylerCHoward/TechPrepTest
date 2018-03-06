@@ -120,14 +120,16 @@ body section.Subscribe {
  	background-color: #fff;
   padding: 0 200px;
 }
-body section.YouDeserveIt {
+.YouDeserveIt {
 	background-color: #f6f6f6;
 }
-body section.YouDeserveIt img {
+.YouDeserveImg {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #f6f6f6;
 }
 footer {
 	text-align: center;
+	background-color: #f6f6f6;
 }
