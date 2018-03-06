@@ -61,6 +61,7 @@ body {
   margin-left: 0px;
 }
 .Information {
+	padding-top: 30px;
 	text-align: center;
 }
 .Information p {
@@ -71,24 +72,13 @@ body {
 }
 h1 {
 	text-align: center;
+	font-size: 3em;
 }
-.row1 {
-	vertical-align: top;
+.Testimonials{
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
-.testimonal1 {
-	float: left;
-	margin: 50px 50px 50px 50px;
-}
-.testimonal2 {
-	margin: 50px 50px 50px 50px;
-}
-.testimonal3 {
-	float: right;
-	margin: 50px 50px 50px 50px;
-}
-.row2 {
-	vertical-align: middle;
-}
-.row3 {
-	vertical-align: bottom;
+footer {
+	text-align: center;
 }

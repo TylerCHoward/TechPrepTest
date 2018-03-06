@@ -128,10 +128,6 @@ body section.YouDeserveIt img {
 	margin-left: auto;
 	margin-right: auto;
 }
-body footer {
+footer {
 	text-align: center;
-	background-color: #f6f6f6;
-}
-body footer p {
-	
 }
