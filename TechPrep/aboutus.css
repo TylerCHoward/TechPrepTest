@@ -8,6 +8,10 @@ html{
 	color: black;
 }
 
+body{
+	width: 70%;
+	margin: auto;
+}
 article{
 
 }
@@ -94,6 +98,17 @@ article li{
 	text-align: center;
 	list-style: none;
 }
+
+article ul{
+	margin-bottom: 4%;
+}
+
+
+article div{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
 
 
 h2{
