@@ -157,4 +157,15 @@ footer {
   bottom: 0;
   position: absolute;
   width: 100%;
+<<<<<<< HEAD
+=======
+
+  margin-top: -104px;
+	margin-left: -100px;
+	margin-right: -8px;
+	margin-bottom: -100px;
+}
+input {
+	background-color: #f6f6f6;
+>>>>>>> dcaa4dc941edf8e0d0e8ba69a60263966b61ef00
 }
