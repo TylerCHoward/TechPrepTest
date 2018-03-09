@@ -61,81 +61,97 @@ nav li.dropdown {
 	float: right;
 }
 /*Body Stylings*/
-body {
-	margin-left: 0px;
+
+html{
+	font-style: sans-serif;
+	color: black;
+	background-color: #f6f6f6;
 }
+
+#main{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#top{
+	padding-bottom: 100px;
+}
+
+body {
+	background-color: #f6f6f6;
+}
+
 body section.Hours {
-	padding-top: 30px;
-	float: left;
-	display: inline;
+	display: block;
 }
 body section.Hours h1 {
-	margin-bottom: 0px;
+
 }
 body section.Hours p {
-	margin-top: 0px;
+
 }
 body section.BookOverPhone {
-	float: left;
 }
 body section.SlideShow img {
-	float: right;
+	display: block;
 	width: 300px;
 	height: 300px;
-	display: inline;
+	float: right;
+
 }
+
+
+
 .lineBreakOneDiv {
-	width: 100%;
-	height: 25px;
-	border-bottom: 1px solid black;
+	background-color: #f6f6f6;
 	text-align: center;
 }
 .lineBreakOneSpan {
-	font-size: 40px;
- 	background-color: #fff;
-  padding: 0 200px;
+	background-color: #f6f6f6;
+
 }
 body section.VideoPlayer {
-
+	text-align: center;
 }
 body section.VideoText {
 	text-align: center;
-	float: right;
 }
 .lineBreakTwoDiv {
-	width: 100%;
-	height: 25px;
-	border-bottom: 1px solid black;
 	text-align: center;
+	background-color: #f6f6f6;
+
 }
 .lineBreakTwoSpan {
-	font-size: 40px;
- 	background-color: #fff;
-  padding: 0 200px;
+	background-color: #f6f6f6;
+
 }
 body section.Subscribe {
 	text-align: center;
-}
+	}
 .lineBreakThreeDiv {
-	width: 100%;
-	height: 25px;
-	border-bottom: 1px solid black;
 	text-align: center;
+	background-color: #f6f6f6;
+
 }
 .lineBreakThreeSpan {
-	font-size: 40px;
- 	background-color: #fff;
-  padding: 0 200px;
-}
-.YouDeserveIt {
 	background-color: #f6f6f6;
+
+}
+#txtbx{
+	float: right;
+	display: inline;
+}
+
+.YouDeserveIt {
 }
 .YouDeserveImg {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #f6f6f6;
-	margin-bottom: -50px;
+	margin-bottom: -30px;
 }
 footer {
 	text-align: center;
