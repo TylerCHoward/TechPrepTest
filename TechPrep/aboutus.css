@@ -6,6 +6,7 @@ header {
 html{
 	font-style: sans-serif;
 	color: black;
+	background-color: #f6f6f6;;
 }
 
 body{
@@ -116,4 +117,8 @@ h2{
 }
 footer {
 	text-align: center;
+	background-color: #282828;
+	color: white;
+	padding-top: .5px;
+	padding-bottom: .5px;
 }
