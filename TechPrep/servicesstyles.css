@@ -18,6 +18,10 @@ nav li {
     float: left;
 }
 
+.navAlignRight {
+	float: right;
+}
+
 nav li a, .dropbtn {
     display: inline-block;
     color: white;
