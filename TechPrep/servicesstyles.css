@@ -88,6 +88,10 @@ body, html {
 	min-height: 50%;
 }
 
+div.caption a{
+	text-decoration: none
+}
+
 .caption {
 	position: absolute;
 	left: 0;
@@ -111,6 +115,8 @@ body, html {
 	text-align:center;
 	padding: 0px;
 }
+
+
 
 footer {
 	text-align: center;
