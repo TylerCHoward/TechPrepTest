@@ -76,9 +76,7 @@ html{
 	height: 100%;
 }
 
-#top{
-	padding-bottom: 50px;
-}
+
 
 body {
 	background-color: #f6f6f6;
@@ -100,6 +98,12 @@ body section.BookOverPhone a{
 	text-decoration: none;
 }
 
+body section.Location a{
+	font-family: 'Anton', sans-serif;
+	padding: 1px;
+	color: #DAA520;
+	text-decoration: none;
+}
 body section.SlideShow img {
 	display: block;
 	width: 900px;
