@@ -63,7 +63,7 @@ nav li.dropdown {
 /*Body Stylings*/
 
 html{
-	font-style: sans-serif;
+	font-style: 'Geneva', sans-serif;
 	color: black;
 	background-color: #f6f6f6;
 }
