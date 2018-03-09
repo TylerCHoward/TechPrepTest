@@ -131,6 +131,6 @@ footer {
 	padding-bottom: .5px;
   margin-top: 30px;
   bottom: 0;
-  position: absolute;
   width: 100%;
+	position: relative;
 }

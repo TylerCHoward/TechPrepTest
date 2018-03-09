@@ -73,6 +73,7 @@ html{
 	padding-right: 15%;
 	padding-top: 100px;
 	padding-bottom: 100px;
+	height: 100%;
 }
 
 #top{
@@ -155,11 +156,10 @@ footer {
 	padding-bottom: .5px;
   margin-top: 30px;
   bottom: 0;
-  position: absolute;
   width: 100%;
-
-
+	position: relative;
 }
+
 input {
 	background-color: #f6f6f6;
 }
