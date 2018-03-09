@@ -105,6 +105,7 @@ body section.SlideShow img {
 
 
 .lineBreakOneDiv {
+	margin-top: 50px;
 	width: 100%;
 	height: 25px;
 	border-bottom: 1px solid black;
@@ -124,6 +125,7 @@ body section.VideoText {
 	text-align: center;
 }
 .lineBreakTwoDiv {
+	margin-top: 50px;
 	width: 100%;
 	height: 25px;
 	border-bottom: 1px solid black;
