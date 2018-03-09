@@ -9,11 +9,11 @@ html{
 }
 
 body{
-	width: 70%;
-	margin: auto;
+
 }
 article{
-
+	padding-left: 15%;
+	padding-right: 15%;
 }
 /*Nav Bar styling*/
 #navBar {
