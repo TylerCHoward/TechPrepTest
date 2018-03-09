@@ -77,12 +77,10 @@ body section.Hours p {
 body section.BookOverPhone {
 	float: left;
 }
-body section.SlideShow {
-	float: left;
-}
-.mySlidesfade {
-	height: 50px;
-	width: 50px;
+body section.SlideShow img {
+	float: right;
+	width: 300px;
+	height: 300px;
 }
 .lineBreakOneDiv {
 	width: 100%;
