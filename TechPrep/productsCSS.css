@@ -1,5 +1,7 @@
 html{
-  font-style: 'Geneva', sans-serif;
+	font-style: 'Geneva', sans-serif;
+	color: black;
+	background-color: #f6f6f6;
 }
 /*Nav Bar styling*/
 #navBar {
