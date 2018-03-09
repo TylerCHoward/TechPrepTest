@@ -93,16 +93,19 @@ body section.Hours h1 {
 body section.Hours p {
 
 }
-body section.BookOverPhone {
+body section.BookOverPhone a{
+	font-family: 'Anton', sans-serif;
+	padding: 1px;
+	color: green;
+	text-decoration: none;
 }
+
 body section.SlideShow img {
 	display: block;
 	width: 900px;
 	height: 410px;
 	float: right;
 }
-
-
 
 .lineBreakOneDiv {
 	margin-top: 50px;

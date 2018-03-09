@@ -19,7 +19,5 @@ Add javascript elements (slide shows, videos, etc)
 
 
 style phone number on home page
-add different font to all pages
-style abot us page
 style all 4 services pages
 make gallery page
