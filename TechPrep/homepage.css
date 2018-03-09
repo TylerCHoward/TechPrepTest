@@ -143,12 +143,12 @@ body section.Subscribe {
 
 .YouDeserveIt {
 }
-.YouDeserveImg {
-	display: block;
+#YouDeserveImg 	{
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #f6f6f6;
-	margin-bottom: -30px;
+
+
 }
 footer {
 	text-align: center;
