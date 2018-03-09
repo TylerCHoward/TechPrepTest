@@ -93,7 +93,11 @@ body, html {
 }
 
 div.caption a{
-	text-decoration: none
+	text-decoration: none;
+}
+
+div.caption a:hover, div.caption a:active, div.caption a:visited{
+	color: white;
 }
 
 .caption {
