@@ -1,0 +1,175 @@
+/*Heading Styles*/
+header {
+
+}
+/*Nav Bar styling*/
+#navBar {
+	width: 100%;
+	display: block;
+	z-index: 1000;
+	position: fixed;
+	-webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+ nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+nav li {
+    float: left;
+}
+
+nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+nav li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.navAlignRight {
+	float: right;
+}
+/*Body Stylings*/
+
+html{
+	font-style: 'Geneva', sans-serif;
+	color: black;
+	background-color: #f6f6f6;
+}
+
+#main{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	height: 100%;
+}
+
+
+
+body {
+	background-color: #f6f6f6;
+}
+
+body section.Hours {
+	display: block;
+}
+body section.Hours h1 {
+
+}
+body section.Hours p {
+
+}
+body section.BookOverPhone a{
+	font-family: 'Anton', sans-serif;
+	padding: 1px;
+	color: #DAA520;
+	text-decoration: none;
+}
+
+body section.Location a{
+	font-family: 'Anton', sans-serif;
+	padding: 1px;
+	color: #DAA520;
+	text-decoration: none;
+}
+body section.SlideShow img {
+	display: block;
+	width: 900px;
+	height: 410px;
+	float: right;
+}
+
+.lineBreakOneDiv {
+	margin-top: 50px;
+
+	width: 100%;
+	height: 25px;
+	border-bottom: 1px solid black;
+	text-align: center;
+
+}
+.lineBreakOneSpan {
+	font-size: 40px;
+	background-color: #f6f6f6;
+	padding: 0 75px;
+
+}
+body section.VideoPlayer {
+	text-align: center;
+}
+body section.VideoText {
+	text-align: center;
+}
+.lineBreakTwoDiv {
+	margin-bottom: 30px;
+	margin-top: 50px;
+	width: 100%;
+	height: 25px;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+.lineBreakTwoSpan {
+	font-size: 40px;
+	background-color: #f6f6f6;
+	padding: 0 150px;
+}
+body section.Subscribe {
+	text-align: center;
+	}
+
+.YouDeserveIt {
+
+}
+#YouDeserveImg 	{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f6f6f6;
+	margin-top: 0px;
+}
+footer {
+	text-align: center;
+	background-color: #282828;
+	color: white;
+	padding-top: .5px;
+	padding-bottom: .5px;
+  margin-top: 30px;
+  bottom: 0;
+  width: 100%;
+	position: relative;
+}
+
+input {
+	background-color: #f6f6f6;
+}

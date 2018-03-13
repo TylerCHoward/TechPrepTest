@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset = "utf-8"/>
+    <title>Pure Elegance Spa</title>
+    <link href = "homepage.css" rel = "stylesheet" type = "text/css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <!-- Add Banner here -->
+    </header>
+    <nav id="navBar">
+			<ul>
+        <li><img src="pictures/pe_logo.png" width = "75" height = "40"/></li>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+				<li class = "dropdown">
+					<a href="services.html" class = "dropbtn">Services</a>
+            <div class="dropdown-content">
+              <a href="bodyByDesign.html">Body by Design</a>
+              <a href="relaxAndRenew.html">Relax and Renew</a>
+              <a href="skinByDesign.html">Skin by Design</a>
+              <a href="naturallyOrganic.html">Naturally Organic</a>
+            </div>
+				</li>
+				<li class = "dropdown">
+					<a href="products.html" class = "dropbtn">Products</a>
+            <div class="dropdown-content">
+              <a href="#">Coming Soon</a>
+            </div>
+				</li>
+				<li>
+					<a href="gallery.html">Gallery</a>
+				</li>
+          <!--
+				    <li>
+					       <a href="#">Schedule an Appointment</a>
+				    </li>
+				    <li>
+					       <a href="#">Membership Program</a>
+				    </li>
+          -->
+				<li>
+					<a href="AboutUs.html">About Us</a>
+				</li>
+        <li class = "navAlignRight">
+          <a href = "Login.php">Login</a>
+        </li>
+			</ul>
+		</nav>
+    <div id="main">
+      <div id="top">
+    <section class = "SlideShow">
+
+
+      <div class="mySlides fade">
+  					<div class="numbertext"></div>
+  					<img src="Pictures/IMG_0903.JPG">
+  				</div>
+
+  				<div class="mySlides fade">
+  					<div class="numbertext"></div>
+  					<img src="Pictures/IMG_0904.JPG">
+  				</div>
+
+  				<div class="mySlides fade">
+  					<div class="numbertext"></div>
+  					<img src="Pictures/IMG_0905.JPG">
+  				</div>
+
+  				<!-- The dots/circles -->
+  				<div style="text-align:center">
+  					<span class="dot"></span>
+  					<span class="dot"></span>
+  					<span class="dot"></span>
+  				</div>
+
+  			<br>
+
+  			<!--Slideshow Javascript-->
+  			<script type="text/Javascript">
+  				var slideIndex = 1;
+  				showSlides(slideIndex);
+
+  				function showSlides() {
+  					var i;
+  					var slides = document.getElementsByClassName("mySlides");
+  					var dots = document.getElementsByClassName("dot");
+  					for (i = 0; i < slides.length; i++) {
+  						slides[i].style.display = "none";
+  					}
+  					for (i = 0; i < dots.length; i++) {
+  						dots[i].className = dots[i].className.replace(" active", "");
+  					}
+  					slideIndex++;
+  					if (slideIndex > slides.length) {slideIndex = 1}
+  					slides[slideIndex-1].style.display = "block";
+  					dots[slideIndex-1].className += " active";
+  					setTimeout(showSlides, 5000); // Change image every 2 seconds
+  				}
+  				</script>
+    </section>
+
+        <!-- find a better way to create a space here -->
+
+
+
+
+    <section class = "VideoPlayer">
+
+    </section>
+    <section class = "Hours">
+      <h1>Hours</h1>
+      <p>Sun: Closed<br/>
+      Mon: 9:30 a.m. - 6:30 p.m.<br/>
+      Tues: 9:30 a.m. - 6:30 p.m.<br/>
+      Wed: 9:30 a.m. - 6:30 p.m.<br/>
+      Thurs: 9:30 a.m. - 6:30 p.m.<br/>
+      Fri: 9:30 a.m. - 6:30 p.m.<br/>
+      Sat: By Appointment Only</p>
+    </section>
+
+    <!-- find a better way to create a space here -->
+
+    <section class = "BookOverPhone">
+      <p>Schedule over<br/>
+         the phone by<br/>
+         calling us at<br/>
+         <a href = "tel:+19375504329">(937) 550-4329</a></p>
+    </section>
+
+    <section class = "Location">
+      <p><a href = "https://www.google.com/maps/place/Pure+Elegance/@39.5638269,-84.231849,18z/data=!4m5!3m4!1s0x88408a4c2595bab3:0x7f73298293c5399a!8m2!3d39.563859!4d-84.232222" target = "_blank">325 N. Main St., <br>Springboro,<br>
+        OH 45066, US</a></p>
+
+    </section>
+
+  </div>
+
+
+        <!-- find a better way to create a space here -->
+
+        <div class = "lineBreakOneDiv">
+            <span class = "lineBreakOneSpan">
+               See Pure Elegance Spa Featured on Fox News <!--Padding is optional-->
+            </span>
+        </div>
+
+      <section class = "video">
+        <video href = "#">
+      </section>
+        <!-- find a better way to create a space here -->
+    <section class = "VideoText">
+      <iframe data-ux="Embed" allowfullscreen="" type="text/html" frameborder="0" data-aid="VIDEO_IFRAME_RENDERED" src="//youtube.com/embed/X7P7r0DamSI?rel=0&amp;showinfo=0&amp;start=0" height="300" width="534" align="center"></iframe>
+      <p>Check us out from when<br>
+         we were featured on Fox<br>
+         News for our Lunchtime<br>
+         Lift and body sculpting!</p>
+    </section>
+
+        <!-- find a better way to create a space here -->
+
+
+        <div class = "lineBreakTwoDiv">
+            <span class = "lineBreakTwoSpan">
+               Subscribe <!--Padding is optional-->
+            </span>
+        </div>
+
+        <!-- find a better way to create a space here -->
+        <br>
+
+
+    <section class = "Subscribe">
+      <p>Sign up to hear from us about specials, sales, and events.</p>
+      <div id="txtbx">
+      <input type = "text" size = "32" name = "emailInput" placeholder = "Email"></input>
+      <button type = "button" name = "Subscribe">Subscribe Here</button>
+    </div>
+    </section>
+      <img src = "Pictures/Capture.PNG" alt = "You Deserve It" id = "YouDeserveImg"/>
+  </div>
+        <!-- find a better way to create a space here -->
+        <footer>
+          <p>Copyright &#169; 2017 Body By Design - All Rights Reserved</p>
+        </footer>
+  </body>
+</html>
